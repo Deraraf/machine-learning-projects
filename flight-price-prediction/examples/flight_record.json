@@ -1,0 +1,11 @@
+{
+  "airline": "Vistara",
+  "source_city": "Delhi",
+  "departure_time": "Morning",
+  "stops": "one",
+  "arrival_time": "Afternoon",
+  "destination_city": "Mumbai",
+  "class": "Economy",
+  "duration": 2.5,
+  "days_left": 10
+}
