@@ -10,11 +10,11 @@ This repository contains two supervised machine learning projects.
 ## Clone the repository
 
 ```bash
-git clone https://github.com/Deraraf/flight-price-prediction.git
-cd flight-price-prediction
+git clone https://github.com/Deraraf/machine-learning-projects.git
+cd machine-learning-projects
 ```
 
-The current GitHub repository name is `flight-price-prediction`, but it contains both assignment projects.
+The current GitHub repository name is `machine-learning-projects`, but it contains both assignment projects.
 
 ## Run the classification project
 
@@ -44,14 +44,20 @@ Submission files in this project include:
 ## Run the regression project
 
 ```bash
-cd ../flight-price-prediction
+cd flight-price-prediction
 uv sync
 PYTHONPATH=src uv run python -m unittest discover -s tests -v
 uv run flight-price-prediction train
 uv run jupyter notebook notebooks/flight_price_prediction.ipynb
 ```
+## To Run The app use:
+```
+cd web
+npm install
+npm run dev
+```
 
-See [flight-price-prediction/README.md](flight-price-prediction/README.md) for complete regression-project instructions.
+See [machine-learining-projecs/README.md](machine-learining-projects/README.md) for complete regression-project instructions.
 
 ## Repository setup
 
