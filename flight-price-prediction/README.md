@@ -77,6 +77,21 @@ must contain `airline`, `source_city`, `departure_time`, `stops`,
 `flight` and `price` are deliberately not model inputs. This command is a local
 deployment/inference demo, not a hosted production service.
 
+## Interactive Next.js demo
+
+The project includes a browser-based demonstration under `web/`. It sends
+form values to the existing Python model and displays the predicted fare.
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`. Use a short local demo by selecting an airline,
+route, travel class, stop count, departure and arrival times, duration, and
+days left before departure.
+
 ## Method and decisions
 
 1. **Problem and data:** predict Indian flight fares from the supplied
