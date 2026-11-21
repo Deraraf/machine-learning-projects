@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-See [machine-learining-projecs/README.md](machine-learining-projects/README.md) for complete regression-project instructions.
+See [flight-price-prediction/README.md](flight-price-prediction/README.md) for complete regression-project instructions.
 
 ## Repository setup
 
