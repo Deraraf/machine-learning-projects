@@ -46,6 +46,7 @@ Submission files in this project include:
 
 ```bash
 cd flight-price-prediction
+source .venv/bin/activate
 uv sync
 PYTHONPATH=src uv run python -m unittest discover -s tests -v
 uv run flight-price-prediction train
