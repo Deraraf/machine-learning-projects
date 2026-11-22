@@ -25,6 +25,7 @@ Requirements:
 
 ```bash
 cd customer-telecommunications-churn-prediction
+source .venv/bin/activate
 uv sync
 uv run python train.py
 uv run jupyter notebook customer_churn_assignment.ipynb
